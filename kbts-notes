@@ -13,3 +13,4 @@ u:student
 p:student
 
 kubectl get nodes -v 12 -> level of verbosity
+kubectl api-resources -> all the api resources
