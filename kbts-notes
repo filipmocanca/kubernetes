@@ -1,2 +1,7 @@
+t.ly/dlh-kubernetes
 app engine
 cncf -> cloud native landscape
+pod network -> built to communicate the pods between them
+service mesh -> manage the replicas in k8s
+kube-controller-manager-> keep the desired state
+kube-scheduler -> chose the most suitable worker node where to deploy the pod
