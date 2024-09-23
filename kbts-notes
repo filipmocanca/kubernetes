@@ -11,3 +11,5 @@ https://pve.dlh.lu/
 
 u:student
 p:student
+
+kubectl get nodes -v 12 -> level of verbosity
