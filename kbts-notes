@@ -26,5 +26,12 @@ kubernetes-dashboard   Active   16h   kubernetes.io/metadata.name=kubernetes-das
 1478
 
 kubectl get pod --all-namespaces -> display all pods with the asociated namespace name
+kubectl label po toto pod-template-hash- -> removes the label from this variable
+kubectl expose deployment notalone --port --type NodePort -> create a service to expose externally the deployment
+kubectl edit -> modify the created elements
+
+
+kubectl create deployment notalone --îmage nginx --replicas 3
+kubectl get rs
 
 
