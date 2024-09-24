@@ -14,3 +14,15 @@ p:student
 
 kubectl get nodes -v 12 -> level of verbosity
 kubectl api-resources -> all the api resources
+
+student@cp:~/script-kube$ kubectl get ns --show-labels
+NAME                   STATUS   AGE   LABELS
+default                Active   17h   kubernetes.io/metadata.name=default
+kube-node-lease        Active   17h   kubernetes.io/metadata.name=kube-node-lease
+kube-public            Active   17h   kubernetes.io/metadata.name=kube-public     -> access by everyone
+kube-system            Active   17h   kubernetes.io/metadata.name=kube-system     -> all pod from system
+kubernetes-dashboard   Active   16h   kubernetes.io/metadata.name=kubernetes-dashboard
+
+1478
+
+
