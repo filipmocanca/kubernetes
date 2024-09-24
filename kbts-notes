@@ -25,4 +25,6 @@ kubernetes-dashboard   Active   16h   kubernetes.io/metadata.name=kubernetes-das
 
 1478
 
+kubectl get pod --all-namespaces -> display all pods with the asociated namespace name
+
 
